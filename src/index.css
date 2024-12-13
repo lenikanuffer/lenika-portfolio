@@ -13,12 +13,13 @@
 }
 
 :root {
-  --maincolor: #93c2bc;
+  --maincolor: #bbd0ff;
 }
 
 body {
   font-family: "Interregular", sans-serif;
   color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(187, 208, 255, 0.3);
 }
 
 header {
