@@ -1,6 +1,7 @@
-import { ArrowBack } from "../../assets/icons/icons";
+import { ArrowBack, GlutenFree, LactoseFree, SugarFree, Vegan, LocalIngredient } from "../../assets/icons/icons";
 import { Link } from "wouter";
 import BuenamanoMockUp from '/Buenamano-hero.png';
+import ProductCard from '/product-card.png';
 
 function Buenamano () {
     return (
@@ -32,14 +33,34 @@ function Buenamano () {
                 <li>To have a direct communication channel for B2B.</li>
                  </p>
         </div>
-        <div className="content-box mx-10 my-5">
+        <div className="content-box mx-10 my-5 flex">
+            <div className="inner-text-container w-3/5">
            <p> Key solutions</p>
-           <ul className="main-font w-2/3 text-justify">
+           <ul className="main-font  text-justify">
             <li>Creation of a catalog of products, accessible from different components of the website. Each product card contains the list of ingredients, and icons to identify vegan, lactose free, sugar free and gluten free products. </li>
             <li>Icons identifying the use of regional ingredients, and brief description of the story/inspiration for the product.</li>
             <li>Special component dedicated to Hotels, Restaurants and Cafés, facilitating a direct and professional B2B communication.</li>
             <li>Showcase the story and values of the company, improving their online presence.</li>
            </ul>
+           </div>
+           <div className="inner-img-container w-1/5 ml-10">
+           <div className="flex gap-5">
+            <img src={ProductCard} alt="" className="rounded-2xl" />
+            <div className="food-icons flex flex-col gap-2">
+                <div className=" icon-description flex gap-2"> <GlutenFree /> 
+                <p>GLUTEN FREE</p></div>
+                <div className=" icon-description flex gap-2"> <LactoseFree /> 
+                <p>LACTOSE FREE</p></div>
+                <div className=" icon-description flex gap-2"> <SugarFree /> 
+                <p>SUGAR FREE</p></div>
+                <div className=" icon-description flex gap-2">  <Vegan />
+                <p>VEGAN</p></div>
+                <div className=" icon-description flex gap-2">  <LocalIngredient />
+                <p>LOCAL INGREDIENTS</p></div>
+            </div>
+            </div>
+
+           </div>
         </div>
         <div className="content-box mx-10 my-5">
            <p> Features</p>
