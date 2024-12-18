@@ -2,6 +2,10 @@ import { ArrowBack, GlutenFree, LactoseFree, SugarFree, Vegan, LocalIngredient }
 import { Link } from "wouter";
 import BuenamanoMockUp from '/Buenamano-hero.png';
 import ProductCard from '/product-card.png';
+import HeroScreen from '/hero-screen.png';
+import AboutScreen from '/about-screen.png';
+import LocalsScreen from '/locals-screen.png';
+import ContactForm from '/contact-form.png';
 
 function Buenamano () {
     return (
@@ -33,19 +37,25 @@ function Buenamano () {
                 <li>To have a direct communication channel for B2B.</li>
                  </p>
         </div>
-        <div className="content-box mx-10 my-5 flex">
-            <div className="inner-text-container w-3/5">
+        <div className="content-box mx-10 my-5 flex flex-col ">
+            <div className="inner-text-container ">
            <p> Key solutions</p>
-           <ul className="main-font  text-justify">
+           <ul className="main-font text-justify">
             <li>Creation of a catalog of products, accessible from different components of the website. Each product card contains the list of ingredients, and icons to identify vegan, lactose free, sugar free and gluten free products. </li>
             <li>Icons identifying the use of regional ingredients, and brief description of the story/inspiration for the product.</li>
             <li>Special component dedicated to Hotels, Restaurants and Cafés, facilitating a direct and professional B2B communication.</li>
             <li>Showcase the story and values of the company, improving their online presence.</li>
            </ul>
            </div>
-           <div className="inner-img-container w-1/5 ml-10">
-           <div className="flex gap-5">
-            <img src={ProductCard} alt="" className="rounded-2xl" />
+           <div className="inner-imgs-container ml-10 flex flex-col gap-10 my-10 ">
+            <div className="landing-page-imgs flex gap-2">
+                <div><img src={HeroScreen} alt="" className="rounded-xl h-96" /></div>
+                <div><img src={LocalsScreen} alt="" className="rounded-xl  h-96"/></div>
+               <div><img src={AboutScreen} alt="" className="rounded-xl h-96 "/></div>
+            </div>
+            <div className=" flex gap-5 ">
+                <div className="flex gap-5">
+            <img src={ProductCard} alt="" className="rounded-xl mb-5 h-96 " />
             <div className="food-icons flex flex-col gap-2">
                 <div className=" icon-description flex gap-2"> <GlutenFree /> 
                 <p>GLUTEN FREE</p></div>
@@ -59,7 +69,10 @@ function Buenamano () {
                 <p>LOCAL INGREDIENTS</p></div>
             </div>
             </div>
-
+            <div className="">
+                <img src={ContactForm} alt="" className="rounded-xl h-96"/>
+            </div>
+            </div>
            </div>
         </div>
         <div className="content-box mx-10 my-5">
