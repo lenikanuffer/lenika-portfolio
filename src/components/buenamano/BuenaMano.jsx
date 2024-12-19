@@ -6,6 +6,11 @@ import HeroScreen from '/hero-screen.png';
 import AboutScreen from '/about-screen.png';
 import LocalsScreen from '/locals-screen.png';
 import ContactForm from '/contact-form.png';
+import Sketch from '/sketch.jpg';
+import Wireframe from '/Wireframe.png';
+import MockUp from '/SingleProduct.png';
+import Architecture from '/Flowchart.jpg';
+import Concept from '/References.png';
 
 function Buenamano () {
     return (
@@ -77,17 +82,27 @@ function Buenamano () {
         </div>
         <div className="content-box mx-10 my-5">
            <p> Features</p>
-           <ul className="main-font">
-            <li>Sketches</li>
-            <li>Wireframes</li>
-            <li>Mockups</li>
-           </ul>
+           <img src={Architecture} alt="" />
+           <div className="imgs-container flex gap-5">
+           <div>
+            <img src={Sketch} alt="" className="rounded-xl h-96" />
+           </div>
+           <div>
+            <img src={Wireframe} alt="" className="rounded-xl h-96"/>
+           </div>
+           <div>
+            <img src={MockUp} alt="" className="rounded-xl h-96"/>
+           </div>
+           </div>
         </div>
         <div className="content-box mx-10 my-5 ">
             <p>Design concept</p>
             <p className="main-font w-2/3 text-justify">
                 The project aimed to maintain consistancy with the visual identity of the business promoted on their social media. The font and color palette were extracted from the logo. 
             </p>
+            <div>
+                <img src={Concept} alt="" />
+            </div>
         </div>
         <div className="content-box mx-10 my-5 ">
            <p>Reflection</p> 
