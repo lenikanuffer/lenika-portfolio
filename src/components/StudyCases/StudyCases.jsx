@@ -1,4 +1,5 @@
 import {Link} from 'wouter';
+import Buenamano from '/Buenamano-hero.png';
 
 function StudyCases () {
     return (
@@ -14,7 +15,7 @@ function StudyCases () {
           </Link>
           </div>
           <div >
-            <img src="" alt="" className="placeholder" />
+            <img src={Buenamano} alt="" className="placeholder" />
           </div>
         </div>
       </div>

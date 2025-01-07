@@ -11,6 +11,8 @@ import Wireframe from '/Wireframe.png';
 import MockUp from '/SingleProduct.png';
 import Architecture from '/Flowchart.jpg';
 import Concept from '/References.png';
+import Mobile from '/file.png';
+import Desktop from '/desktop.png';
 
 function Buenamano () {
     return (
@@ -100,8 +102,16 @@ function Buenamano () {
             <p className="main-font w-2/3 text-justify">
                 The project aimed to maintain consistancy with the visual identity of the business promoted on their social media. The font and color palette were extracted from the logo. 
             </p>
+            <div className="mockups-container flex">
             <div>
-                <img src={Concept} alt="" />
+                <img src={Concept} alt="" className="h-96 rounded-xl" />
+            </div>
+            <div>
+                <img src={Mobile} alt="" className="h-96 rounded-xl" />
+            </div>
+            <div>
+                <img src={Desktop} alt=""  className="h-96 rounded-xl"/>
+            </div>
             </div>
         </div>
         <div className="content-box mx-10 my-5 ">
