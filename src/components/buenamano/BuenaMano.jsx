@@ -31,7 +31,7 @@ function Buenamano () {
         <p className='mx-10 mb-10 pt-3 main-font'>Roles: User Research, UX Designer, Frontend Devloper</p>
         </div>
         <div className='inner-img-container w-64 self-center md:w-1/4 mx-10'>
-       <img src={BuenamanoMockUp} alt='Phone showing Buenamano website' className=''/>
+       <img src={BuenamanoMockUp} alt='Phone showing Buenamano website'/>
         </div>
         </div>
    </main>
