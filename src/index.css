@@ -35,17 +35,13 @@ header {
 }
 
 .landing-bio {
-  font-size: 13px;
+  font-size: 14px;
   color: rgba(0, 0, 0, 0.75);
 }
 
 .blue-link {
-  font-size: 13px;
+  font-size: 14px;
   color: blue;
-}
-
-footer {
-  font-size: 13px;
 }
 
 .single-case {
@@ -54,9 +50,17 @@ footer {
 }
 
 .main-font {
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .icon-description {
-  font-size: 10px;
+  font-size: 12px;
+}
+
+.fig {
+  height: 500px;
+}
+
+.fig2 {
+  height: 600px;
 }

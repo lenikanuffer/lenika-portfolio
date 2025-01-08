@@ -1,7 +1,7 @@
 export function LinkedIn () {
     return (<svg 
         xmlns="http://www.w3.org/2000/svg" 
-        width='30'
+        width='40'
         viewBox="0 0 448 512">
             {/* <!--!Font Awesome Free 6.7.1 by @fontawesome 
             - https://fontawesome.com License 
