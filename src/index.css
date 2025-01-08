@@ -59,6 +59,7 @@ header {
 
 .fig {
   height: 500px;
+  width: auto;
 }
 
 .fig2 {

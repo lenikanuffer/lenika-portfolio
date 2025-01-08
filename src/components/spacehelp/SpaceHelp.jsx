@@ -1,5 +1,5 @@
-import { ArrowBack } from "../../assets/icons/icons";
-import { Link } from "wouter";
+import { ArrowBack } from '../../assets/icons/icons';
+import { Link } from 'wouter';
 import SpacehelpMockup from '/Space-hero.png';
 import SpaceLanding from '/SpaceLanding.png';
 import SingleChallenge from '/single-challenge.png';
@@ -15,20 +15,20 @@ import ItemSell from '/item-sell.png';
 function SpaceHelp () {
     return (
         <>
-   <main className="hero-landing flex flex-col">
-    <Link href="/" className='mx-10'><ArrowBack /></Link>
-    <div className="hero-flex-box flex">
-    <div className="inner-text-container w-3/5">
-        <h1 className="landing-title mx-10 pt-10">
+   <main className='hero-landing flex flex-col'>
+    <Link href='/' className='mx-10'><ArrowBack /></Link>
+    <div className='hero-flex-box flex flex-col md:flex-row'>
+    <div className='inner-text-container md:w-3/5'>
+        <h1 className='landing-title mx-10 pt-10'>
             Space Help
         </h1>
-        <h2 className="ml-10 main-font">2024</h2>
-        <p className="landing-bio main-font mx-10 pt-3 text-justify	">
+        <h2 className='ml-10 main-font'>2024</h2>
+        <p className='landing-bio main-font mx-10 pt-3 text-justify	'>
         Space Help is a decluttering assistant designed to help people clean their spaces. Inspired by different decluttering methods, this app turns this process into small daily challenges, helping to turn this overwhelming task into a sustainable and fun habit.        </p>
-        <p className="mx-10 mb-10 pt-3 main-font">Roles: User Research, UX Designer, Frontend Devloper, Illustrator</p>
+        <p className='mx-10 mb-10 pt-3 main-font'>Roles: User Research, UX Designer, Frontend Devloper, Illustrator</p>
         </div>
-        <div className="inner-img-container w-1/4 ml-10">
-       <img src={SpacehelpMockup} alt="Phone showing Buenamano website" className=""/>
+        <div className='inner-img-container w-64 self-center md:w-1/4 mx-10'>
+       <img src={SpacehelpMockup} alt='Phone showing Buenamano website' className=''/>
         </div>
         </div>
    </main>
