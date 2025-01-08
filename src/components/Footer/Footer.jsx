@@ -1,4 +1,6 @@
 import { LinkedIn } from "../../assets/icons/icons";
+import { Link } from "wouter";
+
 
 function Footer () {
     return (
@@ -9,9 +11,9 @@ function Footer () {
             </ div>
             <div className="self-start">
                 <ul className="flex flex-col gap-2 main-font mt-4 ">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <Link href="/"><li>Home</li></Link>
+                   <Link href="/About"> <li>About</li></Link>
+                    <Link href="/Contact"><li>Contact</li></Link>
                 </ul>
             </div>
            

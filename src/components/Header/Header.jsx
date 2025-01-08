@@ -1,3 +1,6 @@
+import { Link } from "wouter";
+
+
 function Header () {
     return (
         <header className="h-15 flex main-font">
@@ -5,14 +8,14 @@ function Header () {
             <p>Lenika Nuffer</p>
             <nav>
                 <ul className="flex gap-2 ">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
+                    <Link href="/"><li>Home</li></Link>
+                    <Link href="/About"> <li>About</li></Link>
+                    <Link href="/Contact"><li>Contact</li></Link>
                 </ul>
             </nav>
             </div>
         </header>
     )
-}
+} 
 
 export default Header

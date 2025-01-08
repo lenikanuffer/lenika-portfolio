@@ -4,11 +4,6 @@ import SpacehelpMockup from '/Space-hero.png';
 import SpaceLanding from '/SpaceLanding.png';
 import SingleChallenge from '/single-challenge.png';
 import Progress from '/Progress.png';
-
-import Sketch from '/sketch.jpg';
-import Wireframe from '/Wireframe.png';
-import MockUp from '/SingleProduct.png';
-
 import SpaceConcept from '/Spacehelp-concept.png';
 import ChallengeInitial from '/challenge-initial.png';
 import ChallengeCompleted from '/challenge-completed.png';
@@ -16,11 +11,6 @@ import ItemInitial from '/item-initial.png';
 import ItemRecycle from '/item-recycle.png';
 import ItemDonate from '/item-donate.png';
 import ItemSell from '/item-sell.png';
-
-
-
-import Architecture from '/Flowchart.jpg';
-import Desktop from '/desktop.png';
 
 function SpaceHelp () {
     return (
