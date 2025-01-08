@@ -47,7 +47,7 @@ function SpaceHelp () {
             <li>The progress is recorded on the local storage, and displayed on the progress component. The user can visualize the number of challenges completed, the total of articles eliminated, and the percentage of recycled, donated, and sold items.</li>
            </div>
            </div>
-           <div className='inner-imgs-container mx-5 md:ml-10 flex flex-col gap-10 my-10'>
+           <div className='inner-imgs-container mx-5 flex flex-col gap-10 my-10'>
             <div className='landing-page-imgs flex flex-col gap-4'>
             <div className='flex flex-col md:flex-row gap-4'>
             <div className='single-screen'>

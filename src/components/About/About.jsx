@@ -2,12 +2,12 @@ import ProfilePhoto from '/lenikanuffer1.png';
 function About () {
     return (
         <>
-   <main className="hero-landing flex ">
-    <div className="bio-container w-3/5 ">
-        <h1 className="landing-title mx-20 pt-10">
+   <main className='hero-landing flex flex-col md:flex-row'>
+    <div className='bio-container md:w-3/5'>
+        <h1 className='landing-title  mx-10 md:mx-20 pt-10'>
             Nice to meet you!
         </h1>
-        <p className="landing-bio main-font mx-20 pt-3 text-justify	">
+        <p className='landing-bio main-font mx-10 md:mx-20 pt-3 text-justify'>
        
 
 I’m an aspiring UX/UI Designer and Frontend Developer who recently graduated from a UX/UI Engineering program in Berlin. I’m actively seeking junior positions or internships to help launch my career in tech.
@@ -25,10 +25,10 @@ Last year, I finally had the chance to follow a long-term goal of expanding my d
 
 I'm passionate about joining a purpose-driven company where I can continue to grow, collaborate, and contribute to projects that align with my values. My goal is to learn, innovate, and create digital experiences that leave a lasting impact. 
         </p>
-        <a href="http://www.linkedin.com/in/lenika-nuffer"><p className="blue-link mx-20 mb-10 pt-3">Let's connect!</p></a>
+        <a href='http://www.linkedin.com/in/lenika-nuffer'><p className='blue-link mx-10 md:mx-20 md:mb-10 pt-3'>Let's connect!</p></a>
         </div>
-        <div className="bio-img w-2/5">
-            <img src={ProfilePhoto} alt="" className='rounded-full' />
+        <div className='bio-img md:w-2/5'>
+            <img src={ProfilePhoto} alt='Profile picture' className='rounded-full mb-10' />
         </div>
    </main>
 </>
