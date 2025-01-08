@@ -98,7 +98,19 @@ function Buenamano () {
            <img src={Architecture} alt=""  className="w-4/6"/>
            <p className="icon-description pt-4">Website architecture</p>
            </div>
-           <div className="imgs-container flex gap-5 pt-5">
+        </div>
+        <div className="content-box mx-10 my-5 ">
+            <h1 className="landing-title pb-2">Design concept</h1>
+            <p className="main-font w-2/3 text-justify">
+                The project aimed to maintain consistancy with the visual identity of the business promoted on their social media. The font and color palette were extracted from the logo.
+                Designed with mobile first principles, and a responsive interface for ipad and desktop users. 
+            </p>
+            <div className="mockups-container flex flex-wrap">
+            <div>
+                <img src={Concept} alt="" className="h-96 rounded-xl pt-4 " /> 
+                <p className="icon-description pt-4">Color palette and fonts inspired in company's logo</p>
+            </div>
+            <div className="imgs-container flex gap-5 pt-5">
            <div>
             <img src={Sketch} alt="" className="rounded-xl fig2" />
             <p className="icon-description pt-4">Concept sketch</p>
@@ -112,18 +124,6 @@ function Buenamano () {
             <p className="icon-description pt-4">Mockup</p>
            </div>
            </div>
-        </div>
-        <div className="content-box mx-10 my-5 ">
-            <h1 className="landing-title pb-2">Design concept</h1>
-            <p className="main-font w-2/3 text-justify">
-                The project aimed to maintain consistancy with the visual identity of the business promoted on their social media. The font and color palette were extracted from the logo.
-                Designed with mobile first principles, and a responsive interface for ipad and desktop users. 
-            </p>
-            <div className="mockups-container flex flex-wrap">
-            <div>
-                <img src={Concept} alt="" className="h-96 rounded-xl pt-4 " /> 
-                <p className="icon-description pt-4">Color palette and fonts inspired in company's logo</p>
-            </div>
             <div className="flex gap-5 pt-4">
                 <div>
             <img src={Mobile} alt="" className="fig rounded-xl" />
@@ -135,6 +135,7 @@ function Buenamano () {
             </div>
             </div>
             </div>
+            
         </div>
         <div className="content-box mx-10 my-5 ">
            <h1 className="landing-title pb-2">Reflection</h1> 
