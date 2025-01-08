@@ -1,14 +1,21 @@
+import { LinkedIn, GitHub, Xing, Email } from "../../assets/icons/icons";
 function Contact () {
     return (
         <>
-   <main className="hero-landing flex flex-col">
+   <main className="hero-landing flex flex-col contact-hero">
         <h1 className="landing-title mx-10 pt-10">
-            Hi!  I am Lenika, a UX/UI Designer and <br />Frontend Developer based in Berlin
-        </h1>
-        <p className="landing-bio main-font mx-10 pt-3 w-3/5 text-justify	">
-        I started creating user experiences through my installations as a Visual Artist, and continued my path following my love for culture and history while studying Heritage Site’s Management. I decided to dabble into the digital world to expand my horizons, and to integrate creativity and beauty into products that solve everyday problems. 
-        </p>
-        <p className="blue-link mx-10 mb-10 pt-3">Learn more</p>
+         Contact me        </h1>
+         <div className="mx-10 flex flex-col pt-5">
+
+        <div className="flex flex-col gap-5">
+        <div className="contact-links flex gap-5"><Email />nufferlenika@gmail.com</div>
+
+       <div className="contact-links flex gap-5"> <a href="http://www.linkedin.com/in/lenika-nuffer"><LinkedIn /></a><a href="http://www.linkedin.com/in/lenika-nuffer cla">LinkedIn profile</a></div>
+       <div className="contact-links flex gap-5"> <a href="https://github.com/lenikanuffer"><GitHub/> </a> <a href="https://github.com/lenikanuffer"> GitHub profile</a></div>
+       <div className="contact-links flex gap-5"> <a href="https://www.xing.com/profile/Lenika_Nuffer/web_profiles?sc_o=navigation_profile_icon&sc_o_PropActionOrigin=navigation_neffi_50&expandNeffi=true"><Xing/> </a> <a href="https://www.xing.com/profile/Lenika_Nuffer/web_profiles?sc_o=navigation_profile_icon&sc_o_PropActionOrigin=navigation_neffi_50&expandNeffi=true"> Xing profile</a></div>
+        </div>
+        </div>
+        
    </main>
 </>
         
