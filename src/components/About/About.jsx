@@ -1,4 +1,5 @@
 import ProfilePhoto from '/lenikanuffer1.png';
+import Cv from '../cv/cv.jsx';
 function About () {
     return (
         <>
@@ -31,6 +32,7 @@ I'm passionate about joining a purpose-driven company where I can continue to gr
             <img src={ProfilePhoto} alt='Profile picture' className='rounded-full mb-10' />
         </div>
    </main>
+<Cv />
 </>
         
     )

@@ -26,8 +26,7 @@ function Buenamano () {
         </h1>
         <h2 className='ml-10 main-font'>2024</h2>
         <p className='landing-bio main-font mx-10 pt-3 text-justify'>
-         Buenamano is a small Author's ice cream factory located in Pichilemu, Chile. They offer original flavours inspired by regional products, and that adapt to a variaty of clients nutritional needs. They have succeed to partner with several local business who distribute their products.
-        </p>
+        Buenamano is a small Author's ice cream factory in Pichilemu, Chile. They offer original flavors inspired by regional products that adapt to various clients' nutritional needs. They have succeeded in partnering with several local businesses that distribute their products.   </p>
         <p className='mx-10 mb-10 pt-3 main-font'>Roles: User Research, UX Designer, Frontend Devloper</p>
         </div>
         <div className='inner-img-container w-64 self-center md:w-1/4 mx-10'>
