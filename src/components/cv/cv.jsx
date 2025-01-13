@@ -11,7 +11,7 @@ import {
 function Cv() {
   return (
     <>
-      <section>
+      <section className="mb-10">
         <div className="cv-container md:w-3/5 mx-10 md:mx-20">
           <h1 className="landing-title py-10 ">Skills</h1>
           <div className="edu-container flex flex-col gap-5">
