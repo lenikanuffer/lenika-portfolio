@@ -52,17 +52,17 @@ function NovaNit() {
         <div className="content-box mx-10 my-5">
           <h1 className="landing-title pb-2">Problem</h1>
           <p className="main-font md:w-2/3 text-justify">
-            Nova Nit support families in Podgorica, Montenegro, providing them
-            with fresh vegetables, non-perishables and toiletries. To mantain
-            their work and expand their reach, they need new partners, donos and
-            volunteer to contribute with resources, packing and delivery of care
-            packages. For this reason, the main needs are:
+            Nova Nit supports families in Podgorica, Montenegro, providing them
+            with fresh vegetables, non-perishables, and toiletries. To maintain
+            their work and expand their reach, they need new partners, donors,
+            and volunteers to contribute resources, packing, and delivery of
+            care packages. For this reason, the main needs are:
             <li>
               To professionalize their online presence, showcasing their
-              mission, values, and story to possible partners and volunteers.
+              mission, values, and story to potential partners and volunteers.
             </li>
-            <li>To improve and professionaliye communication channels.</li>
-            <li>To make donations easy, encoraging participation.</li>
+            <li>To improve and professionalize communication channels.</li>
+            <li>To make donations easy, encouraging participation.</li>
           </p>
         </div>
         <div className="content-box mx-10 my-5 flex flex-col">
@@ -70,30 +70,30 @@ function NovaNit() {
             <h1 className="landing-title pb-2"> Key solutions</h1>
             <div className="main-font md:w-2/3 text-justify">
               <li>
-                Stablish a brand image that alignes with previous publications
-                in social media. Create consistancy through a minimalistic
-                design that allows the content to stand, specially sharing real
-                images of volunteers.
+                Establish a brand image that aligns with previous publications
+                on social media. Create consistency through a minimalistic
+                design that allows the content to stand out, especially by
+                sharing real images of volunteers.
               </li>
               <li>
                 Design user flows that facilitate an easy transition from the
-                landing page, into different user goals, whether is to donate o
-                participate as volunteer.
+                landing page to different user goals, whether it is to donate or
+                participate as a volunteer.
               </li>
               <li>
-                Create contact forms for direct communication, and modals for
-                easy bank donations. These components are easy to reach through
-                different parts of the website.
+                Create contact forms for direct communication and modals for
+                easy bank donations. These components should be easily
+                accessible throughout different parts of the website.
               </li>
               <li>
-                Showcase current partners, adding value to their colaborations
-                and fostering their promotion. Aim to encourage further
-                partners.
+                Showcase current partners, adding value to their collaborations
+                and fostering their promotion. The goal is to encourage
+                additional partnerships.
               </li>
               <li>
-                For this case, it was very important to create a trustworthy
-                image that encourage first time or recurrent visitors to support
-                the organization.
+                For this case, it was crucial to create a trustworthy image that
+                encourages first-time or recurring visitors to support the
+                organization.
               </li>
             </div>
           </div>
